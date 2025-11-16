@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ashvini’s Art</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Ashvini — sketches, charcoal, graphite & colorful portraits. Commission, view and contact." />
+</head>
+<body>
+  <!-- NAV -->
+  <header class="site-header">
+    <div class="brand">
+      <a href="#home" class="logo">Ashvini’s Art</a>
+    </div>
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="menuBtn" class="menu-btn" aria-label="Open menu">☰</button>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <h1 class="hero-title">Welcome to <span>Ashvini’s Artistic World</span></h1>
+      <p class="hero-sub">Where every stroke tells a story — graphite, charcoal, and color portraits.</p>
+      <div class="hero-actions">
+        <a href="#gallery" class="btn">View Gallery</a>
+        <a href="#contact" class="btn ghost">Contact</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="section gallery-section">
+    <h2 class="section-title">Gallery</h2>
+
+    <div class="filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="charcoal">Charcoal</button>
+      <button class="filter-btn" data-filter="graphite">Graphite</button>
+      <button class="filter-btn" data-filter="colorful">Colorful</button>
+    </div>
+
+    <div class="grid" id="grid">
+
+      <!-- CHARCOAL (4) -->
+      <article class="card charcoal" data-id="art1" data-title="Divine Strength" data-desc="A powerful portrayal of Lord Hanuman radiating devotion, courage, and unshakable spiritual might through striking contrast and sacred symbolism.">
+        <div class="card-media"><img src="images/charcoal1.jpg" alt="Divine Strength"></div>
+        <div class="card-body">
+          <h3 class="card-title">Divine Strength</h3>
+          <p class="card-desc">A powerful portrayal of Lord Hanuman radiating devotion, courage, and unshakable spiritual might through striking contrast and sacred symbolism.</p>
+          <div class="card-actions">
+            <button class="like-btn">♡ <span class="like-count">0</span></button>
+            <button class="view-btn" data-id="art1">View</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card charcoal" data-id="art2" data-title= "Majesty in Shadows" data-desc="A fierce yet graceful portrayal of a tiger, embodying raw power, silent dominance, and untamed beauty through striking contrast and precision">
+        <div class="card-media"><img src="images/charcoal2.jpg" alt="Majesty in Shadows — charcoal"></div>
+        <div class="card-body">
+          <h3 class="card-title">Majesty in Shadows</h3>
+          <p class="card-desc">A fierce yet graceful portrayal of a tiger, embodying raw power, silent dominance, and untamed beauty through striking contrast and precision</p>
+          <div class="card-actions">
+            <button class="like-btn">♡ <span class="like-count">0</span></button>
+            <button class="view-btn" data-id="art2">View</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card charcoal" data-id="art3" data-title="Whiskers of Cuteness" data-desc=" A heart-melting portrait capturing the cat’s innocent charm and playful, wide-eyed wonder.">
+        <div class="card-media"><img src="images/charcoal3.jpg" alt="Whiskers of Cuteness charcoal"></div>
+        <div class="card-body">
+          <h3 class="card-title">Whiskers of Cuteness</h3>
+          <p class="card-desc"> A heart-melting portrait capturing the cat’s innocent charm and playful, wide-eyed wonder.</p>
+          <div class="card-actions">
+            <button class="like-btn">♡ <span class="like-count">0</span></button>
+            <button class="view-btn" data-id="art3">View</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card charcoal" data-id="art4" data-title="The Obeserver" data-desc="This hyper-realistic sketch captures the haunting intensity of a single human eye — a silent witness to the world..">
+        <div class="card-media"><img src="images/charcoal4.jpg" alt="The Obeserver — charcoal"></div>
+        <div class="card-body">
+          <h3 class="card-title">The Obeserver</h3>
+          <p class="card-desc"> This hyper-realistic sketch captures the haunting intensity of a single human eye — a silent witness to the world.</p>
+          <div class="card-actions">
+            <button class="like-btn">♡ <span class="like-count">0</span></button>
+            <button class="view-btn" data-id="art4">View</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- GRAPHITE (4) -->
+      <article class="card graphite" data-id="art5" data-title="Divine Bond" data-desc="A profound portrayal of Lord Shiva’s eternal love and sacred connection with Nandi, symbolizing loyalty, trust, and cosmic unity.">
+        <div class="card-media"><img src="images/graphite1.jpg" alt="Divine Bond — graphite"></div>
+        <div class="card-body">
+          <h3 class="card-title">Divine Bond</h3>
+          <p class="card-desc">A profound portrayal of Lord Shiva’s eternal love and sacred connection with Nandi, symbolizing loyalty, trust, and cosmic unity.</p>
+          <div class="card-actions">
+            <button class="like-btn">♡ <span class="like-count">0</span></button>
+            <button class="view-btn" data-id="art5">View</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card graphite" data-id="art6" data-title="Bhakti in Strength" data-desc="A powerful depiction of Lord Hanuman, embodying devotion, courage, and unwavering faith in Lord Shri Ram.">
+        <div class="card-media"><img src="images/graphite2.jpg" alt="Bhakti in Strength — graphite"></div>
+        <div class="card-body">
+          <h3 class="card-title">Bhakti in Strength</h3>
+          <p class="card-desc">A powerful depiction of Lord Hanuman, embodying devotion, courage, and unwavering faith in Lord Shri Ram.</p>
+          <div class="card-actions">
+            <button class="like-btn">♡ <span class="like-count">0</span></button>
+            <button class="view-btn" data-id="art6">View</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card graphite" data-id="art7" data-title="Pure Companionship" data-desc="Charcoal and graphite blend — inner depth.">
+        <div class="card-media"><img src="images/graphite3.jpg" alt="Pure Companionship— graphite/charcoal"></div>
+        <div class="card-body">
+          <h3 class="card-title">Pure Companionship</h3>
+          <p class="card-desc">A heartwarming portrayal of innocence and unconditional love captured in the joyful bond between a child and her loyal puppy.</p>
+          <div class="card-actions">
+            <button class="like-btn">♡ <span class="like-count">0</span></button>
+            <button class="view-btn" data-id="art7">View</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card graphite" data-id="art8" data-title="Timeless Ride" data-desc="Graphite portrait exploring texture.">
+        <div class="card-media"><img src="images/graphite4.jpg" alt="Timeless Ride— graphite"></div>
+        <div class="card-body">
+          <h3 class="card-title">Timeless Ride</h3>
+          <p class="card-desc">A nostalgic portrayal of classic elegance and mechanical soul, capturing the enduring charm of a bygone era on four wheels.</p>
+          <div class="card-actions">
+            <button class="like-btn">♡ <span class="like-count">0</span></button>
+            <button class="view-btn" data-id="art8">View</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- COLORFUL (6) -->
+      <article class="card colorful" data-id="art9" data-title="Joyful Bloom" data-desc="Colorful portrait.">
+        <div class="card-media"><img src="images/color1.jpg" alt="Innocence in Bloom — colorful"></div>
+        <div class="card-body">
+          <h3 class="card-title">Innocence in Bloom</h3>
+          <p class="card-desc">A tender portrayal of purity and wonder, capturing the quiet grace and radiant charm of early childhood.</p>
+          <div class="card-actions">
+            <button class="like-btn">♡ <span class="like-count">0</span></button>
+            <button class="view-btn" data-id="art9">View</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card colorful" data-id="art10" data-title="Dream Flow" data-desc="Abstract flow of colors expressing peace.">
+        <div class="card-media"><img src="images/color2.jpg" alt="Dream Flow — colorful"></div>
+        <div class="card-body">
+          <h3 class="card-title">Dream Flow</h3>
+          <p class="card-desc">This artwork radiates innocence and serenity.The soft pastel tones and subtle shading bring warmth and tenderness to the entire piece.</p>
+          <div class="card-actions">
+            <button class="like-btn">♡ <span class="like-count">0</span></button>
+            <button class="view-btn" data-id="art10">View</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card colorful" data-id="art11" data-title="Divine Innocence" data-desc="A tender portrayal of baby Krishna, wrapped in warmth and purity. The gentle smile capture the perfect blend of innocence and divinity.">
+        <div class="card-media"><img src="images/color3.jpg" alt="Divine Innocence — colorful"></div>
+        <div class="card-body">
+          <h3 class="card-title">Divine Innocence</h3>
+          <p class="card-desc">A tender portrayal of baby Krishna, wrapped in warmth and purity. The gentle smile capture the perfect blend of innocence and divinity.</p>
+          <div class="card-actions">
+            <button class="like-btn">♡ <span class="like-count">0</span></button>
+            <button class="view-btn" data-id="art11">View</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card colorful" data-id="art12" data-title="Bal Ganesha" data-desc="A heart-melting depiction of Lord Ganesha.">
+        <div class="card-media"><img src="images/color4.jpg" alt="Bal Ganesha— colorful"></div>
+        <div class="card-body">
+          <h3 class="card-title">Bal Ganesha</h3>
+          <p class="card-desc">A heart-melting depiction of Lord Ganesha.</p>
+          <div class="card-actions">
+            <button class="like-btn">♡ <span class="like-count">0</span></button>
+            <button class="view-btn" data-id="art12">View</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card colorful" data-id="art13" data-title="Bloom of Vision" data-desc="A vivid fusion of human emotion and nature’s radiance, where the eye meets the sunflower to symbolize growth, warmth, and awakening.">
+        <div class="card-media"><img src="images/color5.jpg" alt="Bloom of Vision — colorful"></div>
+        <div class="card-body">
+          <h3 class="card-title">Bloom of Vision</h3>
+          <p class="card-desc">A vivid fusion of human emotion and nature’s radiance, where the eye meets the sunflower to symbolize growth, warmth, and awakening.</p>
+          <div class="card-actions">
+            <button class="like-btn">♡ <span class="like-count">0</span></button>
+            <button class="view-btn" data-id="art13">View</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card colorful" data-id="art14" data-title="Crimson Temptation" data-desc="Bright color.">
+        <div class="card-media"><img src="images/color6.jpg" alt="Crimson Temptation — colorful"></div>
+        <div class="card-body">
+          <h3 class="card-title">Crimson Temptation</h3>
+          <p class="card-desc">A bold expression of desire and intensity, blending sweetness and fire through the vivid allure of red and raw emotion..</p>
+          <div class="card-actions">
+            <button class="like-btn">♡ <span class="like-count">0</span></button>
+            <button class="view-btn" data-id="art14">View</button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about-section">
+    <h2 class="section-title">About</h2>
+    <div class="about-inner">
+      <p><strong>Ashvini</strong> — I’m Ashvini, an artist who brings life to portraits using graphite, charcoal, and pencil colors. My artworks focus on expressing emotions, depth, and realism, capturing the soul behind every face. I love blending traditional sketching techniques with my own creative style to make every portrait unique and full of feeling. Whether it’s a soft pencil sketch or a bold charcoal artwork, each piece tells a story that connects with the viewer on a deeper level.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <h2 class="section-title">Contact</h2>
+    <p class="muted">Interested in a commission or collaboration? Reach out — I'd love to hear from you.</p>
+    <div class="contact-actions">
+      <a href="mailto:ashvinibarode832@gmail.com" class="btn">📩 Email</a>
+      <a href="https://instagram.com/art_work_008" target="_blank" class="btn ghost">📷 Instagram</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>© 2025 Ashvini’s Art</p>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button class="lb-close" aria-label="Close">✕</button>
+    <div class="lb-content">
+      <img src="" alt="" class="lb-image">
+      <div class="lb-meta">
+        <h3 class="lb-title"></h3>
+        <p class="lb-desc"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
