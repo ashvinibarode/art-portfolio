@@ -87,7 +87,7 @@ body{
   animation: heroFade 18s infinite ease-in-out;
 }
 @keyframes heroFade{
-  0%{background-image:url("https://raw.githubusercontent.com/ashvinibarode/art-portfolio/refs/heads/main/backgraound1.jpeg")}
+  0%{background-image:url("images/backgraound1.jpeg")}
   33%{background-image:url("images/backgraound2.jpeg")}
   66%{background-image:url("images/backgraound3.jpeg")}
   100%{background-image:url("images/backgraound1.jpeg")}
@@ -280,4 +280,3 @@ body{
   .grid{ grid-template-columns:1fr }
   .hero-inner{ padding:36px 12px }
 }
-
